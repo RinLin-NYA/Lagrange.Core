@@ -8,7 +8,7 @@ namespace Lagrange.Core.Utility.Sign;
 
 internal class MacSigner : SignProvider
 {
-    private const string MacOsUrl = "";
+    private const string MacOsUrl = "http://sign.libfekit.so:8080/api/sign";
     
     public override byte[]? Sign(string cmd, uint seq, byte[] body, out byte[]? ver, out string? token)
     {
