@@ -7,7 +7,7 @@ namespace Lagrange.Core.Utility.Sign;
 
 internal class LinuxSigner : SignProvider
 {
-    private const string Url = "";
+    private const string Url = "http://sign.libfekit.so:8080/api/sign";
 
     private readonly Timer _timer;
 
