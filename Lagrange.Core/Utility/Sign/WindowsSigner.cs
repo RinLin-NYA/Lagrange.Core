@@ -8,7 +8,7 @@ namespace Lagrange.Core.Utility.Sign;
 
 internal class WindowsSigner : SignProvider
 {
-    private const string WindowsUrl = "";
+    private const string WindowsUrl = "http://sign.libfekit.so:8080/api/sign";
     
     public override byte[]? Sign(string cmd, uint seq, byte[] body, out byte[]? ver, out string? token)
     {
